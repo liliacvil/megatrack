@@ -1,0 +1,15 @@
+{
+  "name": "megatrack",
+  "version": "1.0.0",
+  "description": "app for android",
+  "main": "angular.min.js",
+  "scripts": {
+    "test": "\"start\" : \"Plataforma para mobiles\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "megatrack"
+  },
+  "author": "Lilia Chuye",
+  "license": "ISC"
+}
