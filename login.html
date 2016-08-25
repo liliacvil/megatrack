@@ -7,7 +7,12 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-rc.1/angular.min.js"></script>
 		<script src="js/login.js"></script>	
 	</head>
-	<body>
-		
+	<body ng-app="login-app">
+		<div ng-init="cont = 3">
+			Aumentamos 1 al contador: {{ cont + 1 }}<br /> Restamos 1 al contador: <span ng-bind="cont-1"></span>
+		</div>
+		<div>
+			{{[2,3,5].length}}
+		</div>
 	</body>
 </html>
